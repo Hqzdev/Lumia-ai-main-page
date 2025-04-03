@@ -20,7 +20,7 @@ export function AuthForm({ children, defaultEmail = "", ...props }: AuthFormProp
           id="email"
           name="email"
           defaultValue={defaultEmail}
-          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           required
         />
       </div>
@@ -32,7 +32,7 @@ export function AuthForm({ children, defaultEmail = "", ...props }: AuthFormProp
           type="password"
           id="password"
           name="password"
-          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           required
         />
       </div>

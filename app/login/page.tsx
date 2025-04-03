@@ -48,13 +48,13 @@ export default function LoginPage() {
         <AuthForm action={onSubmit}>
           <SubmitButton
             isSuccessful={isSuccessful}
-            className="bg-purple-600 hover:bg-purple-700 transition-all duration-200 transform hover:scale-[1.02]"
+            className="bg-blue-600 hover:bg-blue-700 transition-all duration-200 transform hover:scale-[1.02]"
           >
             Sign in
           </SubmitButton>
           <p className="text-center text-sm text-gray-600 mt-4">
             {"Don't have an account? "}
-            <Link href="/register" className="font-medium text-purple-600 hover:text-purple-500 transition-colors">
+            <Link href="/register" className="font-medium text-blue-600 hover:text-blue-500 transition-colors">
               Sign up
             </Link>
             {" for free."}
@@ -63,7 +63,7 @@ export default function LoginPage() {
 
         <Link 
           href="/"
-          className="flex items-center justify-center text-sm text-purple-600 hover:text-purple-500 transition-colors"
+          className="flex items-center justify-center text-sm text-blue-600 hover:text-blue-500 transition-colors"
         >
           <ArrowRight className="h-4 w-4 mr-2 rotate-180" />
           Back to home

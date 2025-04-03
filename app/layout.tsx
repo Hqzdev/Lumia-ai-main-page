@@ -6,10 +6,10 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "lumia AI - Your Intelligent AI Assistant",
+  title: "Lumia AI",
   description:
-    "lumia AI helps you answer questions, write code, generate content, and solve problems with human-like intelligence.",
-    generator: 'v0.dev'
+    "Lumia AI helps you answer questions, write code, generate content, and solve problems with human-like intelligence.",
+    
 }
 
 export default function RootLayout({

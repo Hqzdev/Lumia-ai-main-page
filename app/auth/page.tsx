@@ -66,7 +66,7 @@ export default function AuthPage() {
                         <input
                           type="email"
                           id="email"
-                          className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500 transition-all duration-200"
+                          className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
                           placeholder="you@example.com"
                         />
                       </div>
@@ -88,7 +88,7 @@ export default function AuthPage() {
                         <input
                           type="password"
                           id="password"
-                          className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500 transition-all duration-200"
+                          className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
                           placeholder="••••••••"
                         />
                       </div>
@@ -105,7 +105,7 @@ export default function AuthPage() {
                           id="remember-me"
                           name="remember-me"
                           type="checkbox"
-                          className="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded"
+                          className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                         />
                         <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-700">
                           Remember me
@@ -113,7 +113,7 @@ export default function AuthPage() {
                       </div>
                       <a
                         href="#"
-                        className="text-sm font-medium text-purple-600 hover:text-purple-500 transition-colors"
+                        className="text-sm font-medium text-blue-600 hover:text-blue-500 transition-colors"
                       >
                         Forgot password?
                       </a>
@@ -124,7 +124,7 @@ export default function AuthPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4 }}
                     >
-                      <Button className="w-full bg-purple-500 hover:bg-purple-600 text-white rounded-lg py-2 transition-all duration-200 transform hover:scale-[1.02]">
+                      <Button className="w-full bg-blue-500 hover:bg-blue-600 text-white rounded-lg py-2 transition-all duration-200 transform hover:scale-[1.02]">
                         Sign in
                       </Button>
                     </motion.div>
@@ -165,7 +165,7 @@ export default function AuthPage() {
                       Don't have an account?{" "}
                       <button
                         onClick={toggleForm}
-                        className="font-medium text-purple-600 hover:text-purple-500 transition-colors"
+                        className="font-medium text-blue-600 hover:text-blue-500 transition-colors"
                       >
                         Sign up
                       </button>
@@ -201,7 +201,7 @@ export default function AuthPage() {
                         <input
                           type="text"
                           id="name"
-                          className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500 transition-all duration-200"
+                          className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
                           placeholder="John Doe"
                         />
                       </div>
@@ -223,7 +223,7 @@ export default function AuthPage() {
                         <input
                           type="email"
                           id="register-email"
-                          className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500 transition-all duration-200"
+                          className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
                           placeholder="you@example.com"
                         />
                       </div>
@@ -245,7 +245,7 @@ export default function AuthPage() {
                         <input
                           type="password"
                           id="register-password"
-                          className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500 transition-all duration-200"
+                          className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
                           placeholder="••••••••"
                         />
                       </div>
@@ -267,7 +267,7 @@ export default function AuthPage() {
                         <input
                           type="password"
                           id="confirm-password"
-                          className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500 transition-all duration-200"
+                          className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
                           placeholder="••••••••"
                         />
                       </div>
@@ -283,15 +283,15 @@ export default function AuthPage() {
                         id="terms"
                         name="terms"
                         type="checkbox"
-                        className="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded"
+                        className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                       />
                       <label htmlFor="terms" className="ml-2 block text-sm text-gray-700">
                         I agree to the{" "}
-                        <a href="#" className="text-purple-600 hover:text-purple-500 transition-colors">
+                        <a href="#" className="text-blue-600 hover:text-blue-500 transition-colors">
                           Terms
                         </a>{" "}
                         and{" "}
-                        <a href="#" className="text-purple-600 hover:text-purple-500 transition-colors">
+                        <a href="#" className="text-blue-600 hover:text-blue-500 transition-colors">
                           Privacy Policy
                         </a>
                       </label>
@@ -302,7 +302,7 @@ export default function AuthPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.6 }}
                     >
-                      <Button className="w-full bg-purple-500 hover:bg-purple-600 text-white rounded-lg py-2 transition-all duration-200 transform hover:scale-[1.02]">
+                      <Button className="w-full bg-blue-500 hover:bg-blue-600 text-white rounded-lg py-2 transition-all duration-200 transform hover:scale-[1.02]">
                         Create Account
                       </Button>
                     </motion.div>
@@ -318,7 +318,7 @@ export default function AuthPage() {
                       Already have an account?{" "}
                       <button
                         onClick={toggleForm}
-                        className="font-medium text-purple-600 hover:text-purple-500 transition-colors"
+                        className="font-medium text-blue-600 hover:text-blue-500 transition-colors"
                       >
                         Sign in
                       </button>
@@ -336,7 +336,7 @@ export default function AuthPage() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          <a href="/" className="inline-flex items-center text-purple-600 hover:text-purple-500 transition-colors">
+          <a href="/" className="inline-flex items-center text-blue-600 hover:text-blue-500 transition-colors">
             <ArrowRight className="h-4 w-4 mr-2 rotate-180" />
             Back to home
           </a>

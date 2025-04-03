@@ -106,7 +106,7 @@ export default FibonacciGenerator;`,
             key={lang}
             className={`px-4 py-2 text-sm font-medium ${
               activeTab === lang
-                ? "bg-gray-800 text-white border-b-2 border-purple-500"
+                ? "bg-gray-800 text-white border-b-2 border-blue-500"
                 : "text-gray-400 hover:text-white hover:bg-gray-800"
             }`}
             onClick={() => setActiveTab(lang)}

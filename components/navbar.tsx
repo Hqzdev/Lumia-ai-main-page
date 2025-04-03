@@ -35,14 +35,14 @@ export default function Navbar() {
       >
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <div className="h-8 w-8 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 mr-2"></div>
+            <div className="h-8 w-8 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 mr-2"></div>
             <span
               className={cn(
                 "text-2xl font-bold transition-colors duration-300",
                 isScrolled ? "text-gray-900" : "text-gray-900",
               )}
             >
-              lumia.ai
+              Lumia.ai
             </span>
           </div>
 
@@ -52,7 +52,7 @@ export default function Navbar() {
               href="#features"
               className={cn(
                 "transition-colors",
-                isScrolled ? "text-gray-700 hover:text-purple-600" : "text-gray-800 hover:text-purple-500",
+                isScrolled ? "text-gray-700 hover:text-blue-600" : "text-gray-800 hover:text-blue-500",
               )}
             >
               Features
@@ -61,7 +61,7 @@ export default function Navbar() {
               href="#pricing"
               className={cn(
                 "transition-colors",
-                isScrolled ? "text-gray-700 hover:text-purple-600" : "text-gray-800 hover:text-purple-500",
+                isScrolled ? "text-gray-700 hover:text-blue-600" : "text-gray-800 hover:text-blue-500",
               )}
             >
               Pricing
@@ -70,7 +70,7 @@ export default function Navbar() {
               href="#docs"
               className={cn(
                 "transition-colors",
-                isScrolled ? "text-gray-700 hover:text-purple-600" : "text-gray-800 hover:text-purple-500",
+                isScrolled ? "text-gray-700 hover:text-blue-600" : "text-gray-800 hover:text-blue-500",
               )}
             >
               Documentation
@@ -79,7 +79,7 @@ export default function Navbar() {
               href="#blog"
               className={cn(
                 "transition-colors",
-                isScrolled ? "text-gray-700 hover:text-purple-600" : "text-gray-800 hover:text-purple-500",
+                isScrolled ? "text-gray-700 hover:text-blue-600" : "text-gray-800 hover:text-blue-500",
               )}
             >
               Blog
@@ -91,12 +91,12 @@ export default function Navbar() {
               href="/auth"
               className={cn(
                 "hidden md:inline-block transition-colors",
-                isScrolled ? "text-gray-700 hover:text-purple-600" : "text-gray-800 hover:text-purple-500",
+                isScrolled ? "text-gray-700 hover:text-blue-600" : "text-gray-800 hover:text-blue-500",
               )}
             >
               Login
             </a>
-            <Button className="bg-purple-500 hover:bg-purple-600 text-white rounded-full">Try For Free</Button>
+            <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-full">Try For Free</Button>
 
             {/* Mobile menu button */}
             <button className="md:hidden text-gray-800" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
@@ -109,19 +109,19 @@ export default function Navbar() {
         {isMobileMenuOpen && (
           <div className="md:hidden bg-white shadow-lg mt-3 py-4 px-6 absolute w-full left-0 rounded-b-lg">
             <div className="flex flex-col space-y-4">
-              <a href="#features" className="text-gray-800 hover:text-purple-500">
+              <a href="#features" className="text-gray-800 hover:text-blue-500">
                 Features
               </a>
-              <a href="#pricing" className="text-gray-800 hover:text-purple-500">
+              <a href="#pricing" className="text-gray-800 hover:text-blue-500">
                 Pricing
               </a>
-              <a href="#docs" className="text-gray-800 hover:text-purple-500">
+              <a href="#docs" className="text-gray-800 hover:text-blue-500">
                 Documentation
               </a>
-              <a href="#blog" className="text-gray-800 hover:text-purple-500">
+              <a href="#blog" className="text-gray-800 hover:text-blue-500">
                 Blog
               </a>
-              <a href="/auth" className="text-gray-800 hover:text-purple-500">
+              <a href="/auth" className="text-gray-800 hover:text-blue-500">
                 Login
               </a>
             </div>

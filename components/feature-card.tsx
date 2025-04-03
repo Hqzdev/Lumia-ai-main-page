@@ -34,13 +34,13 @@ export default function FeatureCard({ title, description, icon }: FeatureCardPro
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="h-12 w-12 rounded-full bg-purple-500 flex items-center justify-center mb-4">{getIcon()}</div>
+      <div className="h-12 w-12 rounded-full bg-blue-500 flex items-center justify-center mb-4">{getIcon()}</div>
 
       <h3 className="text-xl font-bold mb-2">{title}</h3>
       <p className="text-gray-300 mb-4">{description}</p>
 
       <div
-        className={`flex items-center text-purple-400 transition-all duration-300 ${isHovered ? "translate-x-2" : ""}`}
+        className={`flex items-center text-blue-400 transition-all duration-300 ${isHovered ? "translate-x-2" : ""}`}
       >
         <span className="mr-2">Learn more</span>
         <ArrowRight className="h-4 w-4" />
