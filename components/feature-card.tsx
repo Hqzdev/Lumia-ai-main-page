@@ -2,15 +2,17 @@
 
 import { useState } from "react"
 import { MessageSquare, Code, FileText, Brain, ArrowRight } from "lucide-react"
-import type { JSX } from "react/jsx-runtime"
+import type { JSX, ReactNode } from "react"
+import Link from "next/link"
 
 interface FeatureCardProps {
-  title: string
+  title: ReactNode
   description: string
   icon: string
+  href: string
 }
 
-export default function FeatureCard({ title, description, icon }: FeatureCardProps) {
+export default function FeatureCard({ title, description, icon, href }: FeatureCardProps) {
   const [isHovered, setIsHovered] = useState(false)
 
   const getIcon = (): JSX.Element => {
@@ -30,7 +32,7 @@ export default function FeatureCard({ title, description, icon }: FeatureCardPro
 
   return (
     <div
-      className="bg-white/60 backdrop-blur-md p-6 rounded-2xl transition-all duration-300 transform hover:scale-105 border-2 border-gray-200"
+      className="bg-white/60 backdrop-blur-md p-6 rounded-xl border-2 border-gray-200"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -39,12 +41,13 @@ export default function FeatureCard({ title, description, icon }: FeatureCardPro
       <h3 className="text-xl font-bold mb-2 text-gray-800">{title}</h3>
       <p className="text-gray-600 mb-4">{description}</p>
 
-      <div
-        className={`flex items-center text-blue-500 transition-all duration-300 ${isHovered ? "translate-x-2" : ""}`}
+      <Link 
+        href={href}
+        className={`inline-flex items-center text-blue-500 transition-all duration-300 ${isHovered ? "translate-x-2" : ""}`}
       >
         <span className="mr-2">Learn more</span>
         <ArrowRight className="h-4 w-4" />
-      </div>
+      </Link>
     </div>
   )
 }

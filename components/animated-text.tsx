@@ -1,10 +1,10 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useState, ReactNode } from "react"
 import { cn } from "@/lib/utils"
 
 interface AnimatedTextProps {
-  text: string
+  text: ReactNode
   className?: string
   initialDelay?: number
 }

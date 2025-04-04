@@ -24,8 +24,8 @@ export default function Home() {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 max-w-5xl mx-auto leading-tight">
-            <AnimatedText text="Artificial Intelligence" className="block" initialDelay={0} />
-            <AnimatedText text="for your success" className="block" initialDelay={200} />
+            <AnimatedText text={<>Artificial <span className="text-blue-500">Intelligence</span></>} className="block" initialDelay={0} />
+            <AnimatedText text={<>for your <span className="text-blue-500">success</span></>} className="block" initialDelay={200} />
           </h1>
 
           <p className="text-xl mb-12 max-w-2xl mx-auto">
@@ -57,7 +57,7 @@ export default function Home() {
       <section className="relative z-10 py-24">
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-            <AnimatedText text="Create with ease" className="block" initialDelay={0} />
+            <AnimatedText text={<>Create with <span className="text-blue-500">ease</span></>} className="block" initialDelay={0} />
           </h2>
 
           <CodeDemo />
@@ -74,24 +74,27 @@ export default function Home() {
       <section className="relative z-10 py-24">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-12">
-            <AnimatedText text="AI that works for you" className="block" initialDelay={0} />
+            <AnimatedText text={<>AI that <span className="text-blue-500">works for you</span></>} className="block" initialDelay={0} />
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <FeatureCard
-              title="Creative Ideas"
+              title={<>Creative <span className="text-blue-500">Ideas</span></>}
               description="Get inspiration for writing, projects, and problem solving."
-              icon="Sparkles"
+              icon="Brain"
+              href="/creative-ideas"
             />
             <FeatureCard
-              title="Code Help"
+              title={<>Code <span className="text-blue-500">Help</span></>}
               description="Receive assistance writing, editing, and understanding code."
-              icon="Terminal"
+              icon="Code"
+              href="/code-help"
             />
             <FeatureCard
-              title="Knowledge on Demand"
+              title={<>Knowledge <span className="text-blue-500">on Demand</span></>}
               description="Quick and accurate answers on any topic."
-              icon="BookOpen"
+              icon="MessageSquare"
+              href="/knowledge"
             />
           </div>
         </div>
@@ -105,8 +108,8 @@ export default function Home() {
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold mb-12 max-w-4xl mx-auto">
-            <AnimatedText text="Do more in less time" className="block" initialDelay={0} />
-            <AnimatedText text="with Lumia AI" className="block" initialDelay={200} />
+            <AnimatedText text={<>Do <span className="text-blue-500">more</span> in less time</>} className="block" initialDelay={0} />
+            <AnimatedText text={<>with <span className="text-blue-500">Lumia AI</span></>} className="block" initialDelay={200} />
           </h2>
 
           <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-full px-8 py-6 text-lg" onClick={() => window.open('https://lurenai.vercel.app', '_blank')}>
@@ -134,10 +137,9 @@ export default function Home() {
             <div className="space-y-4">
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <div className="grid grid-cols-2 gap-4">
-                <a href="#features" className="text-gray-400 hover:text-blue-400 transition-colors">Features</a>
-                <a href="#about" className="text-gray-400 hover:text-blue-400 transition-colors">About</a>
-                <a href="#pricing" className="text-gray-400 hover:text-blue-400 transition-colors">Pricing</a>
-                <a href="#contact" className="text-gray-400 hover:text-blue-400 transition-colors">Contact</a>
+                <a href="/creative-ideas" className="text-gray-400 hover:text-blue-400 transition-colors">Creative Ideas</a>
+                <a href="/code-help" className="text-gray-400 hover:text-blue-400 transition-colors">Code Help</a>
+                <a href="/knowledge" className="text-gray-400 hover:text-blue-400 transition-colors">Knowledge</a>
               </div>
             </div>
 
@@ -147,7 +149,7 @@ export default function Home() {
                 info@lumia.ai
               </a>
               <div className="flex space-x-4 mt-4">
-                <a href="https://github.com/Hqzdev/nextjs-ai" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-blue-500/10">
+                <a href="https://lurenai.vercel.app" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-blue-500/10">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" />
                   </svg>
