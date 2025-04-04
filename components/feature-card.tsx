@@ -30,17 +30,17 @@ export default function FeatureCard({ title, description, icon }: FeatureCardPro
 
   return (
     <div
-      className="bg-gray-800 p-6 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
+      className="bg-white/60 backdrop-blur-md p-6 rounded-2xl transition-all duration-300 transform hover:scale-105 border-2 border-gray-200"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="h-12 w-12 rounded-full bg-blue-500 flex items-center justify-center mb-4">{getIcon()}</div>
+      <div className="h-12 w-12 rounded-full bg-blue-500 flex items-center justify-center mb-4 text-white">{getIcon()}</div>
 
-      <h3 className="text-xl font-bold mb-2">{title}</h3>
-      <p className="text-gray-300 mb-4">{description}</p>
+      <h3 className="text-xl font-bold mb-2 text-gray-800">{title}</h3>
+      <p className="text-gray-600 mb-4">{description}</p>
 
       <div
-        className={`flex items-center text-blue-400 transition-all duration-300 ${isHovered ? "translate-x-2" : ""}`}
+        className={`flex items-center text-blue-500 transition-all duration-300 ${isHovered ? "translate-x-2" : ""}`}
       >
         <span className="mr-2">Learn more</span>
         <ArrowRight className="h-4 w-4" />
