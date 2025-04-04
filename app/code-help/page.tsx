@@ -11,9 +11,12 @@ export default function CodeHelp() {
       
       {/* Navigation */}
       <nav className="absolute top-0 left-0 w-full p-6">
-        <Link href="/" className="inline-flex items-center text-gray-600 hover:text-blue-500 transition-colors">
+        <Link 
+          href="/" 
+          className="inline-flex items-center px-4 py-2 rounded-lg bg-white/80 hover:bg-blue-500 text-gray-800 hover:text-white transition-all duration-300 backdrop-blur-sm
+        ">
           <ArrowLeft className="w-5 h-5 mr-2" />
-          Back to Home
+          Back to  <span className="text-blue-500 ml-1"> Home</span>
         </Link>
       </nav>
 

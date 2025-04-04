@@ -66,7 +66,7 @@ export default function LoginPage() {
           className="flex items-center justify-center text-sm text-blue-600 hover:text-blue-500 transition-colors"
         >
           <ArrowRight className="h-4 w-4 mr-2 rotate-180" />
-          Back to home
+          Back to  <span className="text-blue-500 ml-1"> Home</span>
         </Link>
       </div>
 

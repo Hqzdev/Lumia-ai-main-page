@@ -350,7 +350,7 @@ export default function LoginPage() {
         >
           <a href="/" className="inline-flex items-center text-blue-600 hover:text-blue-500 transition-colors">
             <ArrowRight className="h-4 w-4 mr-2 rotate-180" />
-            Back to home
+            Back to  <span className="text-blue-500 ml-1"> Home</span>
           </a>
         </motion.div>
       </div>
