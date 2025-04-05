@@ -24,6 +24,7 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-4">
               <Link href="/creative-ideas" className="text-gray-400 hover:text-blue-400 transition-colors">Creative Ideas</Link>
               <Link href="/code-help" className="text-gray-400 hover:text-blue-400 transition-colors">Code Help</Link>
+              <Link href="https://luren-documentation.vercel.app/" className="text-gray-400 hover:text-blue-400 transition-colors">Documentation</Link>
               <Link href="/knowledge" className="text-gray-400 hover:text-blue-400 transition-colors">Knowledge</Link>
             </div>
           </div>

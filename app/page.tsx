@@ -13,6 +13,8 @@ import Hero from "@/components/hero"
 import Features from "@/components/features"
 import Metrics from "@/components/metrics"
 import Footer from "@/components/footer"
+import AIRoadmap from "@/components/ai-roadmap"
+import ExamplePrompts from "@/components/example-prompts"
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
       <Features />
       <Testimonials />
       <Metrics />
+      <AIRoadmap />
+      <ExamplePrompts />
       <Footer />
     </main>
   )
