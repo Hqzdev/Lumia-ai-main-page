@@ -67,7 +67,7 @@ export default function AIRoadmap() {
   const isInView = useInView(ref, { once: true, amount: 0.1 })
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 ">
       <div className="container mx-auto px-4 max-w-5xl">
         <motion.div
           ref={ref}
@@ -84,7 +84,7 @@ export default function AIRoadmap() {
 
           <div className="relative">
             {/* Timeline line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-100" />
+            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-200" />
 
             <div className="space-y-12">
               {roadmapItems.map((item, index) => (

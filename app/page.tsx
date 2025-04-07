@@ -7,16 +7,19 @@ import { Button } from "@/components/ui/button"
 import AnimatedText from "@/components/animated-text"
 import FloatingElements from "@/components/floating-elements"
 import CodeDemo from "@/components/code-demo"
+
 import Testimonials from "@/components/testimonials"
 import Link from "next/link"
 import Hero from "@/components/hero"
 import Features from "@/components/features"
+import Pricing from "@/components/pricing"
+import Leader from "@/components/leader"
 import Metrics from "@/components/metrics"
-import Integration from "@/components/integration"
 import Footer from "@/components/footer"
-import ExampleCode from "@/components/example-code"
 import AIRoadmap from "@/components/ai-roadmap"
-import ExamplePrompts from "@/components/example-prompts"
+import AllInOne from "@/components/all-in-one"
+import FirstAI from "@/components/first-ai"
+import Questions from "@/components/questions"
 
 export default function Home() {
   return (
@@ -26,9 +29,12 @@ export default function Home() {
       <Testimonials />
       <Metrics />
       <AIRoadmap />
-      <ExamplePrompts />
-      <ExampleCode />
-      <Integration />
+      <Leader />
+      <Pricing />
+      <FirstAI />
+      <Questions />
+      <AllInOne />
+    
       <Footer />
     </main>
   )

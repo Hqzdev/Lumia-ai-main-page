@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="h-10 w-10 rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 mr-3 flex items-center justify-center">
                 <span className="text-2xl font-bold">L</span>
               </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">Lumia.ai</span>
+              <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">Lumia.AI.ai</span>
             </div>
             <p className="text-gray-400 max-w-sm">
               Empowering your creativity and productivity with advanced AI technology.
@@ -31,8 +31,8 @@ export default function Footer() {
 
           <div className="space-y-4">
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <a href="mailto:info@lumia.ai" className="text-gray-400 hover:text-blue-400 transition-colors block">
-              info@lumia.ai
+            <a href="mailto:info@Lumia.AI.ai" className="text-gray-400 hover:text-blue-400 transition-colors block">
+              info@Lumia.AI.ai
             </a>
             <div className="flex space-x-4 mt-4">
               <a href="https://lurenai.vercel.app" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-blue-500/10">
