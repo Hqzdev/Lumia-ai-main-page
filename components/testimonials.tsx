@@ -74,7 +74,7 @@ const testimonials = [
 
 const StarRating = ({ rating = 5 }: { rating?: number }) => {
     return (
-      <div className="flex gap-1">
+      <div className="hidden md:block flex gap-1">
         {[...Array(5)].map((_, index) => (
           <Star
             key={index}
