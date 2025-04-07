@@ -20,6 +20,7 @@ import AIRoadmap from "@/components/ai-roadmap"
 import AllInOne from "@/components/all-in-one"
 import FirstAI from "@/components/first-ai"
 import Questions from "@/components/questions"
+import Models from "@/components/models"
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <Metrics />
       <AIRoadmap />
       <Leader />
+      <Models />
       <Pricing />
       <FirstAI />
       <Questions />

@@ -9,41 +9,41 @@ const leaders = [
     {
         id: 1,
         name: "Alex Johnson",
-        points: 1250,
-        rank: 1,
-        achievements: ["Top Contributor", "Early Adopter"],
+        role: "Senior Sales Manager",
+        stats: "Closed $2.5M in deals",
+        achievements: ["Top Performer 2023", "100+ Enterprise Deals"],
         icon: <Trophy className="w-6 h-6 text-yellow-500" />
     },
     {
         id: 2,
-        name: "Sarah Chen",
-        points: 980,
-        rank: 2,
-        achievements: ["Bug Hunter", "Community Helper"],
+        name: "Sarah Chen", 
+        role: "Account Executive",
+        stats: "95% Client Retention",
+        achievements: ["Best Customer Success", "Most Referrals"],
         icon: <Star className="w-6 h-6 text-blue-500" />
     },
     {
         id: 3,
         name: "Michael Brown",
-        points: 750,
-        rank: 3,
-        achievements: ["Feature Suggestion", "Active User"],
+        role: "Sales Development Rep",
+        stats: "250+ Qualified Leads",
+        achievements: ["Highest Conversion Rate", "Most Meetings Booked"],
         icon: <Award className="w-6 h-6 text-blue-500" />
     },
     {
         id: 4,
         name: "Emma Wilson",
-        points: 620,
-        rank: 4,
-        achievements: ["Beta Tester", "Content Creator"],
+        role: "Business Development",
+        stats: "15 New Markets Opened",
+        achievements: ["International Growth", "Strategic Partnerships"],
         icon: <Star className="w-6 h-6 text-green-500" />
     },
     {
         id: 5,
         name: "David Lee",
-        points: 580,
-        rank: 5,
-        achievements: ["Documentation", "Support Team"],
+        role: "Sales Operations",
+        stats: "30% Process Optimization",
+        achievements: ["Sales Tech Stack", "Team Enablement"],
         icon: <Award className="w-6 h-6 text-red-500" />
     }
 ]
@@ -62,10 +62,10 @@ export default function Leader() {
                     transition={{ duration: 0.3 }}
                 >
                     <h2 className="text-3xl font-bold text-center mb-4">
-                        Community <span className="text-blue-500">Leaders</span>
+                        Our <span className="text-blue-500">Top Performers</span>
                     </h2>
                     <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-                        Meet our top contributors and active community members who help make Lumia.AI better every day.
+                        Meet our exceptional sales team members who consistently deliver outstanding results and drive business growth.
                     </p>
 
                     <div className="grid gap-6">
@@ -84,12 +84,12 @@ export default function Leader() {
                                         </div>
                                         <div>
                                             <h3 className="text-lg font-semibold">{leader.name}</h3>
-                                            <p className="text-gray-600">Rank #{leader.rank}</p>
+                                            <p className="text-gray-600">{leader.role}</p>
                                         </div>
                                     </div>
                                     <div className="text-right">
-                                        <p className="text-2xl font-bold text-blue-500">{leader.points}</p>
-                                        <p className="text-sm text-gray-500">points</p>
+                                        <p className="text-lg font-bold text-blue-500">{leader.stats}</p>
+                                        <p className="text-sm text-gray-500">This Year</p>
                                     </div>
                                 </div>
                                 <div className="mt-4 flex flex-wrap gap-2">
