@@ -92,7 +92,7 @@ export default function Models() {
     }, [isAnimating])
 
     return (
-        <section className=" hidden md:flex py-16 bg-gradient-to-b from-gray-50 to-white w-full">
+        <section className=" hidden md:flex py-16  w-full">
             <div className="container mx-auto px-4 max-w-6xl">
                 <motion.div
                     ref={ref}
@@ -151,7 +151,7 @@ export default function Models() {
                                             mass: 0.8,
                                             duration: 0.8
                                         }}
-                                        className={`absolute w-[800px] bg-white rounded-2xl shadow-lg p-8`}
+                                        className={`absolute w-[800px] bg-white rounded-2xl border-2 border-gray-200 p-8`}
                                         style={{ zIndex }}
                                     >
                                         <div className="flex items-center gap-4 mb-8">
