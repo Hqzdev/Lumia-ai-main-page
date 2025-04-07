@@ -7,33 +7,33 @@ import { Plus, Minus } from "lucide-react"
 const faqItems = [
   {
     id: 1,
-    question: "Which languages does Lumia.AI.ai support?",
-    answer: "Lumia.AI.ai supports multiple languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, Japanese, and more. The AI model is trained to generate natural-sounding copy in all these languages, ensuring your outreach is effective globally."
+    question: "Which languages does Lumia.AI support?",
+    answer: "Lumia.AI supports multiple languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, Japanese, and more. The AI model is trained to generate natural-sounding copy in all these languages, ensuring your outreach is effective globally."
   },
   {
     id: 2,
     question: "I am not experienced in cold outreaches; is that a problem?",
-    answer: "Not at all! Lumia.AI.ai is designed to help users of all experience levels. The platform provides guidance, templates, and AI-powered assistance to help you create effective cold outreach campaigns even if you're just getting started. Our system will help you avoid common pitfalls and follow best practices."
+    answer: "Not at all! Lumia.AI is designed to help users of all experience levels. The platform provides guidance, templates, and AI-powered assistance to help you create effective cold outreach campaigns even if you're just getting started. Our system will help you avoid common pitfalls and follow best practices."
   },
   {
     id: 3,
     question: "How quickly can I get started?",
-    answer: "With our forever-free plan, you can get started right away! The onboarding takes only a few minutes. After you indicate your target audience (location, job title, industry, etc.), Lumia.AI.ai can already start reaching out to prospects.\n\nBased on your website and the social media profiles of your prospects, Lumia.AI.ai will know precisely how to write effective cold emails. Of course, you can provide Lumia.AI.ai with additional information about your businesses so it can incorporate this into the emails."
+    answer: "With our forever-free plan, you can get started right away! The onboarding takes only a few minutes. After you indicate your target audience (location, job title, industry, etc.), Lumia.AI can already start reaching out to prospects.\n\nBased on your website and the social media profiles of your prospects, Lumia.AI will know precisely how to write effective cold emails. Of course, you can provide Lumia.AI with additional information about your businesses so it can incorporate this into the emails."
   },
   {
     id: 4,
     question: "Are there any required third party software tools?",
-    answer: "No, Lumia.AI.ai is an all-in-one solution that doesn't require any additional third-party software. Everything you need is built into our platform, including lead generation, email management, and campaign analytics. However, we do offer integrations with popular CRM tools and email providers if you wish to connect your existing workflow."
+    answer: "No, Lumia.AI is an all-in-one solution that doesn't require any additional third-party software. Everything you need is built into our platform, including lead generation, email management, and campaign analytics. However, we do offer integrations with popular CRM tools and email providers if you wish to connect your existing workflow."
   },
   {
     id: 5,
-    question: "How can Lumia.AI.ai write my copy?",
-    answer: "Lumia.AI.ai uses advanced natural language processing to write personalized, effective copy for your campaigns. It analyzes your prospect's data, your business information, and successful patterns from millions of emails to create compelling messages. The AI customizes each email to the recipient, ensuring higher engagement rates and responses."
+    question: "How can Lumia.AI write my copy?",
+    answer: "Lumia.AI uses advanced natural language processing to write personalized, effective copy for your campaigns. It analyzes your prospect's data, your business information, and successful patterns from millions of emails to create compelling messages. The AI customizes each email to the recipient, ensuring higher engagement rates and responses."
   },
   {
     id: 6,
-    question: "How does Lumia.AI.ai find my leads?",
-    answer: "Lumia.AI.ai leverages its database of over 275 million verified leads and uses various methods to find the right prospects for your business. It can identify potential leads based on your target criteria such as industry, job title, company size, and location. Additionally, Lumia.AI.ai can analyze your website visitors, social media followers, and existing customers to identify similar high-quality prospects."
+    question: "How does Lumia.AI find my leads?",
+    answer: "Lumia.AI leverages its database of over 275 million verified leads and uses various methods to find the right prospects for your business. It can identify potential leads based on your target criteria such as industry, job title, company size, and location. Additionally, Lumia.AI can analyze your website visitors, social media followers, and existing customers to identify similar high-quality prospects."
   }
 ]
 

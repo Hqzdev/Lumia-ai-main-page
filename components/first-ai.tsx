@@ -23,22 +23,13 @@ export default function FirstAI() {
                         className="max-w-xl"
                     >
                         <h2 className="text-4xl font-bold leading-tight mb-6">
-                            The first AI sales "agent" that can think, reason, and plan
-                        </h2>
-                        <p className="text-gray-600 mb-8">
-                            Most AI sales tools find basic information and write a generic cold email 
-                            that often feels a bit "off". ORBIT is Lumia's AI sales agent. The first one 
-                            that can think, reason, and plan. Like a human would do - but better. 
-                            With ORBIT, every lead will be approached in a way that is most relevant 
-                            and personal to them.
-                        </p>
-                        <Link 
-                            href="lurenai.vercel.app"
-                            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl text-gray-700 hover:bg-blue-100 transition-colors"
-                        >
-                            Explore Lumia.AI
-                            <ArrowUpRight className="w-4 h-4" />
-                        </Link>
+  The first AI sales agent that thinks and acts like a real pro
+</h2>
+<p className="text-gray-600 mb-8">
+  Traditional AI tools send bland, one-size-fits-all emails. ORBIT is different. It's Lumia’s intelligent sales agent — capable of thinking, planning, and adapting like a human, only faster and smarter. Every lead gets a message tailored specifically to them — relevant, personal, and impactful.
+</p>
+
+                       
                     </motion.div>
 
                     <motion.div
