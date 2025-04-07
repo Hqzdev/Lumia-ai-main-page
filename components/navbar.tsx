@@ -42,7 +42,7 @@ export default function Navbar() {
                 isScrolled ? "text-gray-900" : "text-gray-900",
               )}
             >
-              Lumia.AI.ai
+              Lumia.AI
             </span>
           </div>
 

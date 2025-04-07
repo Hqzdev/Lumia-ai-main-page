@@ -10,7 +10,7 @@ const testimonials = [
     id: 1,
     name: "Alex Peterson",
     role: "Web Developer",
-    content: "Lumia.AI.AI has significantly accelerated my workflow. Now I can generate code faster and more efficiently. The AI suggestions are always relevant and help me write better code.",
+    content: "Lumia.AI has significantly accelerated my workflow. Now I can generate code faster and more efficiently. The AI suggestions are always relevant and help me write better code.",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
     rating: 5
   },
@@ -26,7 +26,7 @@ const testimonials = [
     id: 3,
     name: "David Smith",
     role: "Entrepreneur",
-    content: "Using Lumia.AI.AI for market analysis and business idea generation. The results are impressive! It helps me make data-driven decisions and identify new opportunities.",
+    content: "Using Lumia.AI for market analysis and business idea generation. The results are impressive! It helps me make data-driven decisions and identify new opportunities.",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=David",
     rating: 4
   },

@@ -28,7 +28,7 @@ const leaders = [
         points: 750,
         rank: 3,
         achievements: ["Feature Suggestion", "Active User"],
-        icon: <Award className="w-6 h-6 text-purple-500" />
+        icon: <Award className="w-6 h-6 text-blue-500" />
     },
     {
         id: 4,
@@ -65,7 +65,7 @@ export default function Leader() {
                         Community <span className="text-blue-500">Leaders</span>
                     </h2>
                     <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-                        Meet our top contributors and active community members who help make Lumia.AI.AI better every day.
+                        Meet our top contributors and active community members who help make Lumia.AI better every day.
                     </p>
 
                     <div className="grid gap-6">

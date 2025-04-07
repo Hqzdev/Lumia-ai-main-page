@@ -49,7 +49,7 @@ export default function FirstAI() {
                     >
                         <div className="relative w-full max-w-md">
                             <div className="relative w-full aspect-square">
-                                <div className="absolute inset-0 bg-gradient-to-br from-purple-50 to-blue-50 rounded-full opacity-60"></div>
+                                <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-blue-50 rounded-full opacity-60"></div>
                                 <div className="absolute inset-0 flex items-center justify-center">
                                     {/* Neural network nodes visualization */}
                                     <div className="relative w-4/5 h-4/5">

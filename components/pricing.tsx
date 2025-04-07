@@ -91,7 +91,7 @@ const pricingTiers = [
   {
     id: 2,
     name: "Starter",
-    price: "$120",
+    price: "$12",
     period: "/month",
     leads: "300",
     popular: false,
@@ -139,7 +139,7 @@ const pricingTiers = [
   {
     id: 3,
     name: "Starter Plus",
-    price: "$360",
+    price: "$16",
     period: "/month",
     leads: "1,000",
     popular: true,
@@ -187,7 +187,7 @@ const pricingTiers = [
   {
     id: 4,
     name: "Premium",
-    price: "$925",
+    price: "$25",
     period: "/month",
     leads: "2,500",
     popular: false,
@@ -240,7 +240,7 @@ const pricingTiers = [
   {
     id: 5,
     name: "Ultimate",
-    price: "$1,500",
+    price: "$50",
     period: "/month",
     leads: "5,000",
     popular: false,
@@ -319,13 +319,13 @@ const getIconComponent = (tierName: string) => {
     case "Free":
       return null
     case "Starter":
-      return <Zap className="w-6 h-6 text-[#1a2536]" />
+      return <Zap className="w-6 h-6 text-blue-500" />
     case "Starter Plus":
-      return <Star className="w-6 h-6 text-[#1a2536]" />
+      return <Star className="w-6 h-6 text-blue-500" />
     case "Premium":
-      return <Award className="w-6 h-6 text-[#1a2536]" />
+        return <Award className="w-6 h-6 text-blue-500" />
     case "Ultimate":
-      return <Crown className="w-6 h-6 text-[#1a2536]" />
+      return <Crown className="w-6 h-6 text-blue-500" />
     default:
       return null
   }
@@ -402,40 +402,7 @@ export default function Pricing() {
             <p className="text-2xl font-semibold">at 1/10th the cost</p>
           </motion.div>
 
-          <motion.div variants={itemVariants} className="mb-12">
-            <Tabs value={billingCycle} className="w-64">
-              <TabsList className="grid w-full grid-cols-2 bg-[#2a3546] rounded-full p-1">
-                <TabsTrigger
-                  value="monthly"
-                  className="rounded-full data-[state=active]:bg-purple-500"
-                  onClick={() => handleBillingCycleChange("monthly")}
-                >
-                  Monthly
-                </TabsTrigger>
-                <TabsTrigger
-                  value="annually"
-                  className="rounded-full data-[state=active]:bg-purple-500"
-                  onClick={() => handleBillingCycleChange("annually")}
-                >
-                  <motion.div className="flex items-center" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                    Annually
-                    <motion.span
-                      className="ml-1 text-xs bg-purple-500 text-white px-1 py-0.5 rounded"
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      transition={{
-                        type: "spring",
-                        stiffness: 500,
-                        damping: 15,
-                      }}
-                    >
-                      2 months off
-                    </motion.span>
-                  </motion.div>
-                </TabsTrigger>
-              </TabsList>
-            </Tabs>
-          </motion.div>
+
 
           <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-5 gap-4 w-full max-w-5xl mb-12">
             {pricingTiers.map((tier, index) => (
@@ -445,8 +412,8 @@ export default function Pricing() {
                 whileHover={{ scale: 1.02 }}
                 className={cn(
                   "relative rounded-lg p-4 text-center border border-gray-700 bg-[#1e2a3d] cursor-pointer",
-                  tier.popular ? "border-t-4 border-t-purple-500" : "",
-                  selectedTier === index ? "ring-2 ring-purple-500" : "",
+                  tier.popular ? "border-t-4 border-t-blue-500" : "",
+                  selectedTier === index ? "ring-2 ring-blue-500" : "",
                 )}
                 onClick={() => handleSliderDotClick(index)}
               >
@@ -487,7 +454,7 @@ export default function Pricing() {
           <motion.div variants={itemVariants} className="w-full max-w-5xl mb-12 flex justify-between items-center">
             <div className="w-full h-1 bg-gray-700 relative">
               <div
-                className="absolute top-0 left-0 h-full bg-purple-500"
+                className="absolute top-0 left-0 h-full bg-blue-500"
                 style={{ width: `${(selectedTier / (pricingTiers.length - 1)) * 100}%` }}
               />
               {pricingTiers.map((_, index) => (
@@ -495,7 +462,7 @@ export default function Pricing() {
                   key={index}
                   className={cn(
                     "absolute top-1/2 -translate-y-1/2 w-4 h-4 rounded-full border-2 border-gray-700 transition-all",
-                    selectedTier >= index ? "bg-purple-500" : "bg-[#2a3546]",
+                    selectedTier >= index ? "bg-blue-500" : "bg-[#2a3546]",
                   )}
                   style={{ left: `${(index / (pricingTiers.length - 1)) * 100}%` }}
                   onClick={() => handleSliderDotClick(index)}
@@ -545,7 +512,7 @@ export default function Pricing() {
                   <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                     <Link
                       href={pricingTiers[selectedTier].buttonLink}
-                      className="block w-full text-center py-3 px-6 rounded-lg font-medium transition-colors bg-purple-500 text-white hover:bg-purple-600 mb-8"
+                      className="block w-full text-center py-3 px-6 rounded-lg font-medium transition-colors bg-blue-500 text-white hover:bg-blue-600 mb-8"
                     >
                       {pricingTiers[selectedTier].buttonText}
                     </Link>

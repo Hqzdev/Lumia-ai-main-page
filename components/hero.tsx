@@ -25,7 +25,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl mb-12 max-w-2xl mx-auto">
-          Lumia.AI.AI - your reliable assistant for solving complex problems, generating ideas, and boosting productivity.
+          Lumia.AI - your reliable assistant for solving complex problems, generating ideas, and boosting productivity.
         </p>
 
         <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-full px-8 py-6 text-lg" onClick={() => window.open('https://lurenai.vercel.app', '_blank')}>

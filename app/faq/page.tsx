@@ -13,8 +13,8 @@ const faqSections = [
     items: [
       {
         id: 4,
-        prompt: "How do I get started with Lumia.AI.AI?",
-        response: "Getting started with Lumia.AI.AI is simple:\n\nQuick Start Guide\n1. Visit our website at lurenai.vercel.app\n2. Click the 'Get Started' button\n3. Choose your preferred plan\n4. Start chatting with AI\n\nInitial Setup\n- No installation required\n- Browser-based interface\n- Works on all modern devices\n\nBest Practices\n- Start with simple queries\n- Be specific in your requests\n- Explore different capabilities\n\nFor optimal results, try to be clear and specific in your prompts. The more context you provide, the better the responses will be.",
+        prompt: "How do I get started with Lumia.AI?",
+        response: "Getting started with Lumia.AI is simple:\n\nQuick Start Guide\n1. Visit our website at lurenai.vercel.app\n2. Click the 'Get Started' button\n3. Choose your preferred plan\n4. Start chatting with AI\n\nInitial Setup\n- No installation required\n- Browser-based interface\n- Works on all modern devices\n\nBest Practices\n- Start with simple queries\n- Be specific in your requests\n- Explore different capabilities\n\nFor optimal results, try to be clear and specific in your prompts. The more context you provide, the better the responses will be.",
         category: "Getting Started"
       },
       {
@@ -75,7 +75,7 @@ export default function FAQ() {
               Help & <span className="text-blue-500">Support</span>
             </h1>
             <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-              Find answers to common questions and learn how to get the most out of Lumia.AI.AI
+              Find answers to common questions and learn how to get the most out of Lumia.AI
             </p>
 
             {faqSections.map((section, sectionIndex) => (

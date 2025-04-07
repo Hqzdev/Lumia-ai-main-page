@@ -9,50 +9,50 @@ import Image from "next/image"
 const features = [
     {
         id: 1,
-        title: "Database with 275M+ verified data points for AI",
-        description: "Access Lumia.AI's vast database of over 275 million verified data points to train your AI models. Or upload your own datasets and manage them effortlessly in the cloud within seconds.",
-        icon: <Database className="w-6 h-6 text-purple-500" />
+        title: "Advanced AI Model with 1.5В+ Parameters",
+        description: "Lumia.AI is powered by a state-of-the-art language model trained on diverse datasets, enabling superior understanding and generation of human-like text across multiple languages and domains.",
+        icon: <Database className="w-6 h-6 text-blue-500" />
     },
     {
         id: 2,
-        title: "Advanced AI-powered data analysis",
-        description: "Building effective AI models requires more than just basic information. Lumia.AI automatically scores and enriches data, providing deep insights that go beyond traditional tools to maximize AI personalization.",
-        icon: <Search className="w-12 h-12 text-purple-500" />,
+        title: "Unique Multi-Modal Capabilities",
+        description: "Unlike traditional AI models, Lumia.AI can process and understand both text and images simultaneously, providing more comprehensive and accurate responses to complex queries.",
+        icon: <Search className="w-12 h-12 text-blue-500" />,
         image: "/images/search.svg"
     },
     {
         id: 3,
-        title: "AI-driven personalization at scale",
-        description: "Lumia.AI generates tailored datasets for AI training by analyzing websites, social profiles, and other sources. Get high-quality, personalized data optimized for your AI models.",
-        icon: <Zap className="w-6 h-6 text-purple-500" />,
+        title: "Real-time Learning & Adaptation",
+        description: "Our AI continuously learns from interactions and updates its knowledge base in real-time, ensuring you always have access to the most current and relevant information.",
+        icon: <Zap className="w-6 h-6 text-blue-500" />,
         image: "/images/personalization.svg"
     },
     {
         id: 4,
-        title: "Unlimited AI accounts",
-        description: "Connect as many accounts as you need and seamlessly rotate domains for maximum flexibility in managing your AI workflows.",
-        icon: <Infinity className="w-12 h-12 text-purple-500" />,
+        title: "Enterprise-Grade Security",
+        description: "Built with enterprise security standards, featuring end-to-end encryption, data isolation, and compliance with global privacy regulations.",
+        icon: <Infinity className="w-12 h-12 text-blue-500" />,
         image: "/images/infinity.svg"
     },
     {
         id: 5,
-        title: "AI integrations",
-        description: "Integrate Lumia.AI with Salesforce, Hubspot, Pipedrive, or Zoho to sync your data and streamline AI model training.",
-        icon: <Zap className="w-6 h-6 text-purple-500" />,
+        title: "Custom AI Model Training",
+        description: "Train custom AI models tailored to your specific industry needs, with support for domain-specific knowledge and terminology.",
+        icon: <Zap className="w-6 h-6 text-blue-500" />,
         image: "/images/integrations.svg"
     },
     {
         id: 6,
-        title: "AI task management",
-        description: "This feature ensures your AI pipelines and data workflows are always on track, so no opportunity is missed.",
-        icon: <Check className="w-6 h-6 text-purple-500" />,
+        title: "Advanced Context Understanding",
+        description: "Maintains context across long conversations and complex tasks, providing more coherent and relevant responses than traditional AI models.",
+        icon: <Check className="w-6 h-6 text-blue-500" />,
         image: "/images/task.svg"
     },
     {
         id: 7,
-        title: "AI infrastructure: Everything you need for seamless data processing",
-        description: "Multiple data-sending accounts, dedicated IPs, perfect data health, DKIM, SPF, DMARC, ongoing data validation, and more. Complex details made simple for your AI needs.",
-        icon: <Mail className="w-6 h-6 text-purple-500" />,
+        title: "Comprehensive API Integration",
+        description: "Seamlessly integrate Lumia.AI into your existing workflows with our robust API, supporting multiple programming languages and frameworks.",
+        icon: <Mail className="w-6 h-6 text-blue-500" />,
         image: "/images/email.svg"
     }
 ];
@@ -60,39 +60,39 @@ const features = [
 const methods = [
     {
         id: 1,
-        title: "Upload database for AI",
-        description: "Access 275M+ verified data points for AI training within minutes.",
-        icon: <Database className="w-6 h-6 text-purple-500" />
+        title: "Natural Language Processing",
+        description: "Advanced understanding and generation of human language with context awareness and emotional intelligence.",
+        icon: <Database className="w-6 h-6 text-blue-500" />
     },
     {
         id: 2,
-        title: "CSV upload for AI",
-        description: "Easily upload a CSV file and add your data to train personalized AI models.",
-        icon: <Upload className="w-6 h-6 text-purple-500" />
+        title: "Image Recognition & Analysis",
+        description: "Process and analyze images with high accuracy, identifying objects, text, and patterns in visual content.",
+        icon: <Upload className="w-6 h-6 text-blue-500" />
     },
     {
         id: 3,
-        title: "API / Zapier integration for AI",
-        description: "A simple way to push real-time data via API or Zapier and sync it with your AI models.",
-        icon: <Link className="w-6 h-6 text-purple-500" />
+        title: "Code Generation & Review",
+        description: "Generate, review, and optimize code across multiple programming languages with best practices.",
+        icon: <Link className="w-6 h-6 text-blue-500" />
     },
     {
         id: 4,
-        title: "Tech stack targeting for AI",
-        description: "Specify companies using specific tools in their tech stacks. We'll find, verify, and populate the data for you.",
-        icon: <Zap className="w-6 h-6 text-purple-500" />
+        title: "Data Analysis & Insights",
+        description: "Advanced analytics and insights generation from complex datasets with actionable recommendations.",
+        icon: <Zap className="w-6 h-6 text-blue-500" />
     },
     {
         id: 5,
-        title: "Manual data mining for AI",
-        description: "Locate companies, find contacts, and populate data with human-level accuracy for AI training.",
-        icon: <Search className="w-6 h-6 text-purple-500" />
+        title: "Content Creation & Optimization",
+        description: "Generate high-quality content across various formats with SEO optimization and style customization.",
+        icon: <Search className="w-6 h-6 text-blue-500" />
     },
     {
         id: 6,
-        title: "Keyword search for AI",
-        description: "Use keywords to search LinkedIn and other advanced platforms for data enrichment.",
-        icon: <Globe className="w-6 h-6 text-purple-500" />
+        title: "Multi-language Support",
+        description: "Seamless translation and understanding across 100+ languages with cultural context awareness.",
+        icon: <Globe className="w-6 h-6 text-blue-500" />
     }
 ];
 
@@ -110,7 +110,7 @@ export default function AllInOne() {
                     transition={{ duration: 0.3 }}
                 >
                     <h2 className="text-3xl font-bold text-center mb-12">
-                        All-in-one prospecting solution
+                        Next-Generation AI Capabilities
                     </h2>
 
                     {/* Database feature with method options */}
@@ -156,7 +156,7 @@ export default function AllInOne() {
                                 
                                 <div className="flex justify-center mt-auto">
                                     {feature.icon && (
-                                        <div className="text-purple-500">
+                                        <div className="text-blue-500">
                                             {feature.icon}
                                         </div>
                                     )}
@@ -164,15 +164,15 @@ export default function AllInOne() {
                                 
                                 {feature.image && (
                                     <div className="mt-6 flex justify-center">
-                                        <div className="w-full max-w-[250px] h-[120px] bg-purple-100 rounded-2xl flex items-center justify-center">
+                                        <div className="w-full max-w-[250px] h-[120px] bg-blue-100 rounded-2xl flex items-center justify-center">
                                             {/* Replace with actual images */}
-                                            <div className="text-purple-500 text-4xl">
+                                            <div className="text-blue-500 text-4xl">
                                                 {feature.id === 2 && <Search size={48} />}
                                                 {feature.id === 3 && (
                                                     <div className="flex">
-                                                        <div className="w-10 h-10 rounded-2xl bg-purple-300 -mr-2"></div>
-                                                        <div className="w-10 h-10 rounded-2xl bg-purple-400 -mr-2"></div>
-                                                        <div className="w-10 h-10 rounded-2xl bg-purple-500"></div>
+                                                        <div className="w-10 h-10 rounded-2xl bg-blue-300 -mr-2"></div>
+                                                        <div className="w-10 h-10 rounded-2xl bg-blue-400 -mr-2"></div>
+                                                        <div className="w-10 h-10 rounded-2xl bg-blue-500"></div>
                                                     </div>
                                                 )}
                                                 {feature.id === 4 && <Infinity size={48} />}
@@ -181,19 +181,19 @@ export default function AllInOne() {
                                                         <div className="w-8 h-8 rounded-2xl bg-orange-400"></div>
                                                         <div className="w-8 h-8 rounded-2xl bg-blue-400"></div>
                                                         <div className="w-8 h-8 rounded-2xl bg-green-400"></div>
-                                                        <div className="w-8 h-8 rounded-2xl bg-purple-400"></div>
+                                                        <div className="w-8 h-8 rounded-2xl bg-blue-400"></div>
                                                     </div>
                                                 )}
                                                 {feature.id === 6 && (
                                                     <div className="space-y-2">
-                                                        <div className="w-24 h-3 bg-purple-300 rounded-2xl"></div>
-                                                        <div className="w-24 h-3 bg-purple-300 rounded-2xl"></div>
+                                                        <div className="w-24 h-3 bg-blue-300 rounded-2xl"></div>
+                                                        <div className="w-24 h-3 bg-blue-300 rounded-2xl"></div>
                                                     </div>
                                                 )}
                                                 {feature.id === 7 && (
                                                     <div className="flex items-center">
-                                                        <div className="w-12 h-12 rounded-2xl bg-purple-300 mr-2"></div>
-                                                        <div className="w-6 h-6 rounded-2xl bg-purple-500"></div>
+                                                        <div className="w-12 h-12 rounded-2xl bg-blue-300 mr-2"></div>
+                                                        <div className="w-6 h-6 rounded-2xl bg-blue-500"></div>
                                                     </div>
                                                 )}
                                             </div>
