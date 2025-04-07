@@ -108,7 +108,7 @@ export default function Metrics() {
   }, [isAnimating])
 
   return (
-    <section className="py-16">
+    <section className="hidden md:block py-16">
       <div className="container w-[900px] mx-auto px-4 max-w-5xl">
         <motion.h2 
           initial={{ opacity: 0 }}
