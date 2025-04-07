@@ -12,7 +12,9 @@ import Link from "next/link"
 import Hero from "@/components/hero"
 import Features from "@/components/features"
 import Metrics from "@/components/metrics"
+import Integration from "@/components/integration"
 import Footer from "@/components/footer"
+import ExampleCode from "@/components/example-code"
 import AIRoadmap from "@/components/ai-roadmap"
 import ExamplePrompts from "@/components/example-prompts"
 
@@ -25,6 +27,8 @@ export default function Home() {
       <Metrics />
       <AIRoadmap />
       <ExamplePrompts />
+      <ExampleCode />
+      <Integration />
       <Footer />
     </main>
   )

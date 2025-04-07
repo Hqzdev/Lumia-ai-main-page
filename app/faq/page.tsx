@@ -92,7 +92,7 @@ export default function FAQ() {
                       initial={{ opacity: 0, y: 20 }}
                       animate={isInView ? { opacity: 1, y: 0 } : {}}
                       transition={{ delay: (sectionIndex * section.items.length + index) * 0.1 }}
-                      className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow"
+                      className="bg-white rounded-xl p-6"
                     >
                       <div className="flex items-center gap-3 mb-4">
                         <MessageSquare className="w-5 h-5 text-blue-500" />

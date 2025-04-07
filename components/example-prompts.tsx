@@ -19,12 +19,6 @@ const modelInfo = [
     response: "I was created by the Lumia AI team, a group of developers and AI researchers dedicated to making artificial intelligence more accessible and useful. Our mission is:\n\nInnovation\n- Developing cutting-edge AI solutions\n- Pushing the boundaries of AI capabilities\n- Continuous improvement and learning\n\nAccessibility\n- Making AI technology available to everyone\n- Creating user-friendly interfaces\n- Providing affordable solutions\n\nEthics\n- Maintaining transparency in AI operations\n- Ensuring data privacy and security\n- Following responsible AI development practices\n\nOur goal is to help users solve problems, boost productivity, and unlock new possibilities through AI technology.",
     category: "Company Background"
   },
-  {
-    id: 3,
-    prompt: "What are the differences between Lumia v2 and Lumia v2 Max?",
-    response: "Here's a comparison of Lumia v2 and Lumia v2 Max features:\n\nLumia v2\nCore Features\n- Standard response generation\n- Basic code assistance\n- Regular processing speed\n- 2K context window\n\nUse Cases\n- Personal projects\n- Basic coding tasks\n- General writing assistance\n\nLumia v2 Max\nEnhanced Capabilities\n- Advanced response generation\n- Complex code analysis and generation\n- 2x faster processing\n- 4K context window\n\nAdditional Features\n- Multi-language code optimization\n- Advanced data analysis\n- Priority processing\n\nEnterprise Features\n- Team collaboration tools\n- Advanced API access\n- Custom model fine-tuning",
-    category: "Product Comparison"
-  }
 ]
 
 export default function ExamplePrompts() {
@@ -60,14 +54,14 @@ export default function ExamplePrompts() {
             </Link>
           </div>
 
-          <div className="grid gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {modelInfo.map((item, index) => (
               <motion.div
                 key={item.id}
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow"
+                className="bg-white rounded-xl p-6 transition-shadow"
               >
                 <div className="flex items-center gap-3 mb-4">
                   <Sparkles className="w-5 h-5 text-blue-500" />
