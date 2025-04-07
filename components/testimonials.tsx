@@ -128,7 +128,7 @@ const StarRating = ({ rating = 5 }: { rating?: number }) => {
   
     return (
       // Секция на всю ширину, содержимое будет по центру
-      <section className="py-16 w-full flex justify-center"> 
+      <section className="hidden md:flex py-16 w-full flex justify-center"> 
         {/* Контейнер с максимальной шириной и авто-маржинами */}
         <div className="max-w-[900px] w-full mx-auto px-4">
           <motion.h2 
