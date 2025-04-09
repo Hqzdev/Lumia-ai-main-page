@@ -49,6 +49,25 @@ export default function Questions() {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4 max-w-4xl">
+        {/* CTA Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ delay: 0.5 }}
+          className="mb-16 text-center bg-gradient-to-r from-blue-500 to-purple-500 text-white p-8 rounded-lg"
+        >
+          <h3 className="text-2xl font-bold mb-2">Try Lumia Dashboard</h3>
+          <p className="mb-4">Experience the power of Lumia AI in our interactive dashboard</p>
+          <a
+            href="https://lumia-dashboard.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-white text-blue-500 px-6 py-2 rounded-lg font-medium hover:bg-gray-100 transition-colors duration-200"
+          >
+            Go to Dashboard
+          </a>
+        </motion.div>
+
         <motion.div
           ref={ref}
           initial={{ opacity: 0 }}
@@ -92,9 +111,9 @@ export default function Questions() {
 
                 {/* Answer */}
                 <div
-                  className={`px-6 overflow-hidden transition-all duration-300 ease-in-out ${
+                  className={`px-6 transition-all duration-300 ease-in-out ${
                     activeIndex === index
-                      ? "max-h-96 py-4 opacity-100"
+                      ? "max-h-[500px] py-4 opacity-100"
                       : "max-h-0 py-0 opacity-0"
                   }`}
                 >
