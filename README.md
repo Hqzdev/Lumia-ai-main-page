@@ -1,14 +1,14 @@
-# LumiaAI Main Page 🌐
+# YumiAI Main Page 🌐
 
-![GitHub](https://img.shields.io/github/license/Hqzdev/Lumia-ai-main-page) ![GitHub last commit](https://img.shields.io/github/last-commit/Hqzdev/Lumia-ai-main-page)
+![GitHub](https://img.shields.io/github/license/Hqzdev/Yumi-ai-main-page) ![GitHub last commit](https://img.shields.io/github/last-commit/Hqzdev/Yumi-ai-main-page)
 
-Welcome to the **LumiaAI Main Page**, the official landing page for LumiaAI. This repository contains the source code and assets for the public-facing website that introduces LumiaAI to the world.
+Welcome to the **YumiAI Main Page**, the official landing page for YumiAI. This repository contains the source code and assets for the public-facing website that introduces YumiAI to the world.
 
 ---
 
 ## 🌟 About the Project
 
-The LumiaAI Main Page is designed to provide visitors with an overview of LumiaAI's features, benefits, and use cases. It serves as the entry point for users, developers, and businesses interested in exploring LumiaAI's capabilities.
+The YumiAI Main Page is designed to provide visitors with an overview of YumiAI's features, benefits, and use cases. It serves as the entry point for users, developers, and businesses interested in exploring YumiAI's capabilities.
 
 ---
 
@@ -43,4 +43,4 @@ For inquiries or contributions, feel free to reach out:
 - **GitHub:** [Hqzdev](https://github.com/Hqzdev)
 - **Email:** hqzdev@example.com
 
-Thank you for visiting the LumiaAI Main Page! We hope it inspires you to explore LumiaAI further. 🚀✨
+Thank you for visiting the YumiAI Main Page! We hope it inspires you to explore YumiAI further. 🚀✨

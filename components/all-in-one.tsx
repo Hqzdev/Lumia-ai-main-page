@@ -10,13 +10,13 @@ const features = [
     {
         id: 1,
         title: "Advanced AI Model with 1.5В+ Parameters",
-        description: "Lumia.AI is powered by a state-of-the-art language model trained on diverse datasets, enabling superior understanding and generation of human-like text across multiple languages and domains.",
+        description: "Yumi.AI is powered by a state-of-the-art language model trained on diverse datasets, enabling superior understanding and generation of human-like text across multiple languages and domains.",
         icon: <Database className="w-6 h-6 text-blue-500" />
     },
     {
         id: 2,
         title: "Unique Multi-Modal Capabilities",
-        description: "Unlike traditional AI models, Lumia.AI can process and understand both text and images simultaneously, providing more comprehensive and accurate responses to complex queries.",
+        description: "Unlike traditional AI models, Yumi.AI can process and understand both text and images simultaneously, providing more comprehensive and accurate responses to complex queries.",
         icon: <Search className="w-12 h-12 text-blue-500" />,
         image: "/images/search.svg"
     },
@@ -51,7 +51,7 @@ const features = [
     {
         id: 7,
         title: "Comprehensive API Integration",
-        description: "Seamlessly integrate Lumia.AI into your existing workflows with our robust API, supporting multiple programming languages and frameworks.",
+        description: "Seamlessly integrate Yumi.AI into your existing workflows with our robust API, supporting multiple programming languages and frameworks.",
         icon: <Mail className="w-6 h-6 text-blue-500" />,
         image: "/images/email.svg"
     }

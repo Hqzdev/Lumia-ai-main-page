@@ -23,13 +23,11 @@ export default function FirstAI() {
                         className="max-w-xl"
                     >
                         <h2 className="text-4xl font-bold leading-tight mb-6">
-  The first AI sales agent that thinks and acts like a real pro
-</h2>
-<p className="text-gray-600 mb-8">
-  Traditional AI tools send bland, one-size-fits-all emails. ORBIT is different. It's Lumia’s intelligent sales agent — capable of thinking, planning, and adapting like a human, only faster and smarter. Every lead gets a message tailored specifically to them — relevant, personal, and impactful.
-</p>
-
-                       
+                            The first AI assistant that truly understands you
+                        </h2>
+                        <p className="text-gray-600 mb-8">
+                            I am Yumi, your intelligent AI companion. I analyze your needs, learn your preferences, and adapt my responses to help you achieve your goals. Whether you need creative ideas, instant answers, or smart solutions, I am always here to assist you with speed, accuracy, and a personal touch. Experience the next generation of AI — thoughtful, proactive, and uniquely yours.
+                        </p>
                     </motion.div>
 
                     <motion.div

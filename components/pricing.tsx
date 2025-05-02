@@ -52,9 +52,9 @@ const pricingTiers = [
     icon: "F",
     features: [
       {
-        name: "Free Lumia addresses on a shared domain",
+        name: "Free Yumi addresses on a shared domain",
         included: true,
-        info: "Use Lumia.ai on your shared domain",
+        info: "Use Yumi.ai on your shared domain",
       },
       {
         name: "275+ million leads available",
@@ -72,7 +72,7 @@ const pricingTiers = [
         info: "Advanced AI certification features",
       },
       {
-        name: "Email setup by Lumia",
+        name: "Email setup by Yumi",
         included: false,
         info: "We'll set up your email campaigns for you",
       },
@@ -100,9 +100,9 @@ const pricingTiers = [
     icon: "S",
     features: [
       {
-        name: "Free Lumia addresses on a shared domain",
+        name: "Free Yumi addresses on a shared domain",
         included: true,
-        info: "Use Lumia.ai on your shared domain",
+        info: "Use Yumi.ai on your shared domain",
       },
       {
         name: "275+ million leads available",
@@ -120,7 +120,7 @@ const pricingTiers = [
         info: "Advanced AI certification features",
       },
       {
-        name: "Email setup by Lumia",
+        name: "Email setup by Yumi",
         included: false,
         info: "We'll set up your email campaigns for you",
       },
@@ -148,9 +148,9 @@ const pricingTiers = [
     icon: "S+",
     features: [
       {
-        name: "Free Lumia addresses on a shared domain",
+        name: "Free Yumi addresses on a shared domain",
         included: true,
-        info: "Use Lumia.ai on your shared domain",
+        info: "Use Yumi.ai on your shared domain",
       },
       {
         name: "275+ million leads available",
@@ -168,7 +168,7 @@ const pricingTiers = [
         info: "Advanced AI certification features",
       },
       {
-        name: "Email setup by Lumia",
+        name: "Email setup by Yumi",
         included: true,
         info: "We'll set up your email campaigns for you",
       },
@@ -196,9 +196,9 @@ const pricingTiers = [
     icon: "P",
     features: [
       {
-        name: "Free Lumia addresses on a shared domain",
+        name: "Free Yumi addresses on a shared domain",
         included: true,
-        info: "Use Lumia.ai on your shared domain",
+        info: "Use Yumi.ai on your shared domain",
       },
       {
         name: "275+ million leads available",
@@ -216,7 +216,7 @@ const pricingTiers = [
         info: "Advanced AI certification features",
       },
       {
-        name: "Email setup by Lumia",
+        name: "Email setup by Yumi",
         included: true,
         info: "We'll set up your email campaigns for you",
       },
@@ -249,9 +249,9 @@ const pricingTiers = [
     icon: "U",
     features: [
       {
-        name: "Free Lumia addresses on a shared domain",
+        name: "Free Yumi addresses on a shared domain",
         included: true,
-        info: "Use Lumia.ai on your shared domain",
+        info: "Use Yumi.ai on your shared domain",
       },
       {
         name: "275+ million leads available",
@@ -269,7 +269,7 @@ const pricingTiers = [
         info: "Advanced AI certification features",
       },
       {
-        name: "Email setup by Lumia",
+        name: "Email setup by Yumi",
         included: true,
         info: "We'll set up your email campaigns for you",
       },
@@ -296,7 +296,7 @@ const pricingTiers = [
       {
         name: "Custom integrations",
         included: true,
-        info: "Integrate Lumia.ai with your existing tools and workflows",
+        info: "Integrate Yumi.ai with your existing tools and workflows",
       },
     ],
   },
@@ -398,7 +398,7 @@ export default function Pricing() {
           className="flex flex-col items-center"
         >
           <motion.div variants={itemVariants} className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Lumia.ai outperforms human salespeople</h2>
+            <h2 className="text-4xl font-bold mb-4">Yumi.ai outperforms human salespeople</h2>
             <p className="text-2xl font-semibold">at 1/10th the cost</p>
           </motion.div>
 

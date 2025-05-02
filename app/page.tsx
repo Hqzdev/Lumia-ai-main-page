@@ -6,14 +6,12 @@ import FeatureCard from "@/components/feature-card"
 import { Button } from "@/components/ui/button"
 import AnimatedText from "@/components/animated-text"
 import FloatingElements from "@/components/floating-elements"
-import CodeDemo from "@/components/code-demo"
-
 import Testimonials from "@/components/testimonials"
 import Link from "next/link"
 import Hero from "@/components/hero"
 import Features from "@/components/features"
 import Pricing from "@/components/pricing"
-import Leader from "@/components/leader"
+
 import Metrics from "@/components/metrics"
 import Footer from "@/components/footer"
 import AIRoadmap from "@/components/ai-roadmap"
@@ -30,7 +28,6 @@ export default function Home() {
       <Testimonials />
       <Metrics />
       <AIRoadmap />
-      <Leader />
       <Models />
       <Pricing />
       <FirstAI />
