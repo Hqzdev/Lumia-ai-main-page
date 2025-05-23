@@ -13,8 +13,8 @@ const faqSections = [
     items: [
       {
         id: 4,
-        prompt: "How do I get started with Yumi.AI?",
-        response: "Getting started with Yumi.AI is simple:\n\nQuick Start Guide\n1. Visit our website at lurenai.vercel.app\n2. Click the 'Get Started' button\n3. Choose your preferred plan\n4. Start chatting with AI\n\nInitial Setup\n- No installation required\n- Browser-based interface\n- Works on all modern devices\n\nBest Practices\n- Start with simple queries\n- Be specific in your requests\n- Explore different capabilities\n\nFor optimal results, try to be clear and specific in your prompts. The more context you provide, the better the responses will be.",
+        prompt: "How do I get started with Lumia.AI?",
+        response: "Getting started with Lumia.AI is simple:\n\nQuick Start Guide\n1. Visit our website at lurenai.vercel.app\n2. Click the 'Get Started' button\n3. Choose your preferred plan\n4. Start chatting with AI\n\nInitial Setup\n- No installation required\n- Browser-based interface\n- Works on all modern devices\n\nBest Practices\n- Start with simple queries\n- Be specific in your requests\n- Explore different capabilities\n\nFor optimal results, try to be clear and specific in your prompts. The more context you provide, the better the responses will be.",
         category: "Getting Started"
       },
       {
@@ -32,7 +32,7 @@ const faqSections = [
       {
         id: 6,
         prompt: "How can I resolve common issues with the AI?",
-        response: "Here are solutions to common issues:\n\nConnection Problems\n- Clear browser cache\n- Check internet connection\n- Try different browser\n\nResponse Quality\n- Be more specific in prompts\n- Use proper formatting\n- Provide context\n\nAccount Issues\n- Verify email address\n- Check subscription status\n- Update payment method\n\nIf problems persist, contact our support team at support@Yumi.AI-ai.com for assistance.",
+        response: "Here are solutions to common issues:\n\nConnection Problems\n- Clear browser cache\n- Check internet connection\n- Try different browser\n\nResponse Quality\n- Be more specific in prompts\n- Use proper formatting\n- Provide context\n\nAccount Issues\n- Verify email address\n- Check subscription status\n- Update payment method\n\nIf problems persist, contact our support team at support@Lumia.AI-ai.com for assistance.",
         category: "Troubleshooting"
       },
       {
@@ -75,7 +75,7 @@ export default function FAQ() {
               Help & <span className="text-blue-500">Support</span>
             </h1>
             <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-              Find answers to common questions and learn how to get the most out of Yumi.AI
+              Find answers to common questions and learn how to get the most out of Lumia.AI
             </p>
 
             {faqSections.map((section, sectionIndex) => (

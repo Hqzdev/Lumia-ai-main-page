@@ -7,7 +7,7 @@ import { Brain, Zap, Rocket, ChevronLeft, ChevronRight } from "lucide-react"
 
 const modelData = {
     v1Max: {
-        name: "Yumi V1 Max",
+        name: "Lumia V1 Max",
         color: "#8B5CF6",
         speed: 65,
         power: 85,
@@ -16,7 +16,7 @@ const modelData = {
         icon: <Brain className="w-8 h-8 text-blue-500" />
     },
     v2: {
-        name: "Yumi V2",
+        name: "Lumia V2",
         color: "#3B82F6",
         speed: 85,
         power: 85,
@@ -25,7 +25,7 @@ const modelData = {
         icon: <Zap className="w-8 h-8 text-blue-500" />
     },
     v2Pro: {
-        name: "Yumi V2 Pro",
+        name: "Lumia V2 Pro",
         color: "#6366F1",
         speed: 100,
         power: 100,
@@ -101,7 +101,7 @@ export default function Models() {
                     transition={{ duration: 0.5 }}
                 >
                     <h2 className="text-4xl font-bold text-center mb-4">
-                        Yumi AI Models Comparison
+                        Lumia AI Models Comparison
                     </h2>
                     <p className="text-gray-600 text-center mb-12">
                         Detailed analysis of performance and efficiency

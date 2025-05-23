@@ -6,9 +6,9 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Yumi ",
+  title: "Lumia ",
   description:
-    "Yumi helps you answer questions, write code, generate content, and solve problems with human-like intelligence.",
+    "Lumia helps you answer questions, write code, generate content, and solve problems with human-like intelligence.",
     
 }
 

@@ -26,7 +26,7 @@ export default function FirstAI() {
                             The first AI assistant that truly understands you
                         </h2>
                         <p className="text-gray-600 mb-8">
-                            I am Yumi, your intelligent AI companion. I analyze your needs, learn your preferences, and adapt my responses to help you achieve your goals. Whether you need creative ideas, instant answers, or smart solutions, I am always here to assist you with speed, accuracy, and a personal touch. Experience the next generation of AI — thoughtful, proactive, and uniquely yours.
+                            I am Lumia, your intelligent AI companion. I analyze your needs, learn your preferences, and adapt my responses to help you achieve your goals. Whether you need creative ideas, instant answers, or smart solutions, I am always here to assist you with speed, accuracy, and a personal touch. Experience the next generation of AI — thoughtful, proactive, and uniquely yours.
                         </p>
                     </motion.div>
 
