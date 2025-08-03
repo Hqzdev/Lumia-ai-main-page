@@ -7,34 +7,34 @@ import { motion } from "framer-motion"
 
 const faqData = [
   {
-    question: "What is Pointer and who is it for?",
+    question: "What is Lumia and who is it for?",
     answer:
-      "Pointer is an AI-powered development platform designed for developers, teams, and organizations who want to accelerate their coding workflow. It's perfect for both individual developers looking to enhance their productivity and teams seeking seamless collaboration tools.",
+      "Lumia is an AI assistant designed for developers, creators, and teams. Whether you're building, learning, or exploring ideas, Lumia offers smart, fast, and context-aware support across coding, writing, and reasoning tasks.",
   },
   {
-    question: "How does Pointer's AI code review work?",
+    question: "How is Lumia different from other AI tools?",
     answer:
-      "Our AI analyzes your code in real-time, providing intelligent suggestions for improvements, catching potential bugs, and ensuring best practices. It learns from your coding patterns and adapts to your team's standards, making code reviews faster and more consistent.",
+      "Lumia combines a large language model with task-specific memory, developer tools, code analysis, and creative support — all in one place. It’s not just a chatbot, it’s your personal development and ideation assistant.",
   },
   {
-    question: "Can I integrate Pointer with my existing tools?",
+    question: "Does Lumia support real-time collaboration?",
     answer:
-      "Yes! Pointer offers one-click integrations with popular development tools including GitHub, GitLab, VS Code, Slack, and many more. Our MCP connectivity allows you to easily manage and configure server access across your entire development stack.",
+      "Yes. Lumia is built for both solo and team workflows. You can collaborate in real-time with shared chats, review suggestions, and even sync development insights across your workspace.",
   },
   {
-    question: "What's included in the free plan?",
+    question: "Is Lumia free to use?",
     answer:
-      "The free plan includes real-time code suggestions, basic integrations, single MCP server connection, up to 2 AI coding agents, and Vercel deployments with Pointer branding. It's perfect for individual developers getting started.",
+      "Lumia offers a forever free tier with basic features like GPT-3.5 support, limited requests, and community access. You can upgrade to unlock advanced models, extended context, and team features.",
   },
   {
-    question: "How do parallel coding agents work?",
+    question: "What kind of models and features does Lumia include?",
     answer:
-      "Our parallel coding agents can work on different parts of your codebase simultaneously, solving complex problems faster than traditional single-threaded approaches. You can launch multiple agents to handle different tasks like bug fixes, feature development, and code optimization concurrently.",
+      "Lumia supports multiple models including GPT-4, context windows up to 128k tokens, parallel agents, and memory. It also offers code explanation, refactoring, writing tools, and API access.",
   },
   {
-    question: "Is my code secure with Pointer?",
+    question: "Is my data and code secure with Lumia?",
     answer:
-      "Absolutely. We use enterprise-grade security measures including end-to-end encryption, secure data transmission, and compliance with industry standards. Your code never leaves your secure environment without your explicit permission, and we offer on-premises deployment options for enterprise customers.",
+      "Yes. Lumia uses encrypted channels, secure storage, and never trains on your data. We offer compliance with GDPR, SOC2, and enterprise deployment options for full control over data residency.",
   },
 ]
 
@@ -131,7 +131,7 @@ export function FAQSection() {
             Frequently Asked Questions
           </h2>
           <p className="self-stretch text-center text-muted-foreground text-sm font-medium leading-[18.20px] break-words">
-            Everything you need to know about Pointer and how it can transform your development workflow
+            Learn how Lumia helps you code, create, and collaborate with intelligent tools designed for modern workflows.
           </p>
         </div>
       </motion.div>

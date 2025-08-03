@@ -64,37 +64,38 @@ const BentoCard = ({ title, description, Component, index }) => (
 
 export function BentoSection() {
   const cards = [
-    {
-      title: "AI-powered code reviews.",
-      description: "Get real-time, smart suggestions for cleaner code.",
-      Component: AiCodeReviews,
-    },
-    {
-      title: "Real-time coding previews",
-      description: "Chat, collaborate, and instantly preview changes together.",
-      Component: RealtimeCodingPreviews,
-    },
-    {
-      title: "One-click integrations",
-      description: "Easily connect your workflow with popular dev tools.",
-      Component: OneClickIntegrationsIllustration,
-    },
-    {
-      title: "Flexible MCP connectivity",
-      description: "Effortlessly manage and configure MCP server access.",
-      Component: MCPConnectivityIllustration, // Updated component
-    },
-    {
-      title: "Launch parallel coding agents", // Swapped position
-      description: "Solve complex problems faster with multiple AI agents.",
-      Component: ParallelCodingAgents, // Updated component
-    },
-    {
-      title: "Deployment made easy", // Swapped position
-      description: "Go from code to live deployment on Vercel instantly.",
-      Component: EasyDeployment,
-    },
-  ]
+  {
+    title: "Chat with AI. Instantly.",
+    description: "Ask questions, generate ideas, and get help from your personal AI assistant — in real-time.",
+    Component: AiCodeReviews,
+  },
+  {
+    title: "Understand and preview your content",
+    description: "Paste your text, and our AI gives structured feedback, suggestions, or summaries on the fly.",
+    Component: RealtimeCodingPreviews,
+  },
+  {
+    title: "Connect your tools with one click",
+    description: "Use your favorite apps and platforms — our AI integrates seamlessly with your existing workflow.",
+    Component: OneClickIntegrationsIllustration,
+  },
+  {
+    title: "Secure and scalable infrastructure",
+    description: "Enjoy robust connectivity and secure data handling. Built for enterprise and individual creators.",
+    Component: MCPConnectivityIllustration,
+  },
+  {
+    title: "Collaborate with multiple AI agents",
+    description: "Let different AI agents brainstorm, code, or plan together — all inside one environment.",
+    Component: ParallelCodingAgents,
+  },
+  {
+    title: "From idea to live in minutes",
+    description: "Turn prompts into products. Generate, build, and deploy in one flow — powered by AI.",
+    Component: EasyDeployment,
+  },
+]
+
 
   return (
     <motion.section
@@ -114,13 +115,14 @@ export function BentoSection() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <div className="flex flex-col justify-start items-center gap-4">
-            <h2 className="w-full max-w-[655px] text-center text-foreground text-4xl md:text-6xl font-semibold leading-tight md:leading-[66px]">
-              Empower Your Workflow with AI
-            </h2>
-            <p className="w-full max-w-[600px] text-center text-muted-foreground text-lg md:text-xl font-medium leading-relaxed">
-              Ask your AI Agent for real-time collaboration, seamless integrations, and actionable insights to
-              streamline your operations.
-            </p>
+            <h2 className="text-center text-4xl md:text-6xl font-semibold leading-tight md:leading-[66px]">
+  Discover the Power of Your Personal AI Assistant
+</h2>
+
+            <p className="text-center text-muted-foreground text-lg md:text-xl font-medium leading-relaxed">
+  From conversation to computation — explore what your AI can do for you.
+</p>
+
           </div>
         </motion.div>
         <div className="self-stretch grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 z-10">

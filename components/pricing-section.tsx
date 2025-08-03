@@ -39,60 +39,59 @@ const AnimatedNumber = ({ value, duration = 1000 }) => {
 
 export function PricingSection() {
   const [isAnnual, setIsAnnual] = useState(true)
+const pricingPlans = [
+  {
+    name: "Starter",
+    monthlyPrice: "$0",
+    annualPrice: "$0",
+    description: "Start experimenting with AI — free forever.",
+    features: [
+      "Access to base Lumia 3.5 model",
+      "Limited prompt runs per day",
+      "Community support",
+      "Shared compute environment",
+      "Basic API access with rate limits",
+    ],
+    buttonText: "Start for Free",
+    buttonClass:
+      "bg-white text-black border border-gray-200 hover:bg-gray-50 transition-colors shadow-sm",
+  },
+  {
+    name: "Developer",
+    monthlyPrice: "$20",
+    annualPrice: "$16",
+    description: "Everything you need to build production-ready AI apps.",
+    features: [
+      "Lumia 4 access (with context window up to 128k)",
+      "Priority inference on shared compute",
+      "Moderation API & basic analytics",
+      "Increased rate limits",
+      "Early access to new features",
+      "Email and community support",
+    ],
+    buttonText: "Upgrade to Developer",
+    buttonClass:
+      "bg-green-500 text-black hover:bg-green-600 transition-colors shadow-md",
+    popular: true,
+  },
+  {
+    name: "Enterprise",
+    monthlyPrice: "$200",
+    annualPrice: "$160",
+    description: "Advanced control, security, and scalability for teams.",
+    features: [
+      "Custom Lumia models & fine-tuning",
+      "Dedicated capacity & private deployments",
+      "Enterprise-grade SLA and support",
+      "SSO/SAML and role-based access",
+      "Audit logs & compliance (SOC2, GDPR)",
+    ],
+    buttonText: "Contact Sales",
+    buttonClass:
+      "bg-white text-black hover:bg-gray-200 transition-colors shadow-md",
+  },
+];
 
-  const pricingPlans = [
-    {
-      name: "Free",
-      monthlyPrice: "$0",
-      annualPrice: "$0",
-      description: "Perfect for individuals starting their journey.",
-      features: [
-        "Real-time code suggestions",
-        "Basic integration logos",
-        "Single MCP server connection",
-        "Up to 2 AI coding agents",
-        "Vercel deployments with Pointer branding",
-      ],
-      buttonText: "Get Started",
-      buttonClass:
-        "bg-zinc-300 shadow-[0px_1px_1px_-0.5px_rgba(16,24,40,0.20)] outline outline-0.5 outline-[#1e29391f] outline-offset-[-0.5px] text-gray-800 text-shadow-[0px_1px_1px_rgba(16,24,40,0.08)] hover:bg-zinc-400",
-    },
-    {
-      name: "Pro",
-      monthlyPrice: "$20",
-      annualPrice: "$16",
-      description: "Ideal for professionals.",
-      features: [
-        "Enhanced real-time previews",
-        "Unlimited integrations with custom logos",
-        "Multiple MCP server connections",
-        "Up to 10 concurrent AI coding agents",
-        "Collaborative coding with team chat",
-        "Advanced version control integrations",
-        "Priority email and chat support",
-      ],
-      buttonText: "Join now",
-      buttonClass:
-        "bg-primary-foreground shadow-[0px_1px_1px_-0.5px_rgba(16,24,40,0.20)] text-primary text-shadow-[0px_1px_1px_rgba(16,24,40,0.08)] hover:bg-primary-foreground/90",
-      popular: true,
-    },
-    {
-      name: "Ultra",
-      monthlyPrice: "$200",
-      annualPrice: "$160",
-      description: "Tailored solutions for teams.",
-      features: [
-        "Dedicated account support",
-        "Unlimited MCP server clusters",
-        "Unlimited AI coding agents",
-        "Enterprise-grade security and compliance",
-        "Priority deployments and SLA guarantees",
-      ],
-      buttonText: "Talk to Sales",
-      buttonClass:
-        "bg-secondary shadow-[0px_1px_1px_-0.5px_rgba(16,24,40,0.20)] text-secondary-foreground text-shadow-[0px_1px_1px_rgba(16,24,40,0.08)] hover:bg-secondary/90",
-    },
-  ]
 
   return (
     <motion.section
@@ -110,13 +109,13 @@ export function PricingSection() {
         transition={{ duration: 0.6, delay: 0.2 }}
       >
         <div className="flex flex-col justify-start items-center gap-4">
-          <h2 className="text-center text-foreground text-4xl md:text-5xl font-semibold leading-tight md:leading-[40px]">
-            Pricing built for every developer
-          </h2>
-          <p className="self-stretch text-center text-muted-foreground text-sm font-medium leading-tight">
-            Choose a plan that fits your coding workflow, from individuals starting out to <br /> growing professionals
-            and large organizations.
-          </p>
+         <h2 className="w-full max-w-[655px] text-center text-foreground text-4xl md:text-6xl font-semibold leading-tight md:leading-[66px]">
+  Conversational Intelligence<br />Built for Real Work
+</h2>
+<p className="w-full max-w-[600px] text-center text-muted-foreground text-lg md:text-xl font-medium leading-relaxed">
+  Your AI assistant for coding, research, writing, and more. Seamlessly integrated, context-aware, always ready to help.
+</p>
+
         </div>
         <div className="pt-4">
           <div className="p-0.5 bg-slate-100 rounded-lg border border-slate-200/60 flex justify-start items-center gap-1 md:mt-0">

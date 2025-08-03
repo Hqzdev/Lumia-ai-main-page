@@ -459,7 +459,7 @@ export function HeroSection() {
         </motion.p>
       </div>
 
-      <Link href="https://vercel.com/home" target="_blank" rel="noopener noreferrer">
+      <Link href="https://auth.lumiaai.ru" target="_blank" rel="noopener noreferrer">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
